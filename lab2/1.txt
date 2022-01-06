@@ -1,0 +1,8 @@
+8
+   4043 /usr/lib/systemd/systemd --user
+   4046 (sd-pam)
+   4052 sshd: admin@pts/0
+   4053 -bash
+   4216 /bin/bash ./1.bash
+   4220 ps -u admin -o pid,command
+   4221 tail -n +2

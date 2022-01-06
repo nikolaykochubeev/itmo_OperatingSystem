@@ -1,0 +1,7 @@
+cd c:\
+sc queryex | find "SERVICE_NAME" > services.txt
+sc stop Dnscache
+TIMEOUT /t 10
+sc queryex | find "SERVICE_NAME" > services2.txt
+sc start Dnscache
+fc /A services.txt services2.txt > services3.txt

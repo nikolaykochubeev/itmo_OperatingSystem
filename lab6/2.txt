@@ -1,0 +1,6 @@
+mkdir C:\%computername%\temp
+net share temp=C:\%computername%\temp
+schtasks /create /f /sc minute /tn copy /tr c:/copy.bat
+taskkill /IM copy.bat /T /F
+c:\copy.bat
+schtasks /delete /f /tn copy

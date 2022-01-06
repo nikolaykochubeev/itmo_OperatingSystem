@@ -1,0 +1,16 @@
+cd c:\
+mkdir LAB6
+cd LAB6
+systeminfo | findstr /r /c:"^OS Version" > OSVersion.txt
+systeminfo | find "Memory" > Memory.txt
+wmic logicaldist get > Disk.txt
+
+mkdir TEST
+copy OSVersion.txt TEST
+copy Memory.txt TEST
+copy Disk.txt TEST
+cd TEST
+
+copy OSVersion.txt+Memory.txt+Disk.txt AllFiles.txt
+
+del OsVersion.txt Memory.txt Disk.txt

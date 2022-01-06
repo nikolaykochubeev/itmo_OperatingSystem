@@ -1,0 +1,3 @@
+cd C:\
+driverquery /NH > drivers.txt 
+sort /R drivers.txt

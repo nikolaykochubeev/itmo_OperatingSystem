@@ -1,0 +1,244 @@
+[    54.696] (Warning) Failed to open protocol names file /usr/lib64/xorg/protocol.txt
+	(Warning) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    56.250] (Warning) Falling back to old probe method for modesetting
+[    56.250] (Warning) Falling back to old probe method for fbdev
+	(++) from command line, (!!) notice, (Information) informational,
+[    54.712] (Information) The server relies on udev to provide the list of input devices.
+[    54.712] (Information) Loader magic: 0x55d549a2c020
+[    54.712] (Information) Module ABI versions:
+[    54.713] (Information) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[    54.713] (Information) xfree86: Adding drm device (/dev/dri/card0)
+[    54.713] (Information) Platform probe for /sys/devices/pci0000:00/0000:00:02.0/drm/card0
+[    54.719] (Information) LoadModule: "glx"
+[    54.720] (Information) Loading /usr/lib64/xorg/modules/extensions/libglx.so
+[    54.744] (Information) Module glx: vendor="X.Org Foundation"
+[    54.744] (Information) LoadModule: "vmware"
+[    54.749] (Information) Loading /usr/lib64/xorg/modules/drivers/vmware_drv.so
+[    56.234] (Information) Module vmware: vendor="X.Org Foundation"
+[    56.234] (Information) LoadModule: "modesetting"
+[    56.234] (Information) Loading /usr/lib64/xorg/modules/drivers/modesetting_drv.so
+[    56.246] (Information) Module modesetting: vendor="X.Org Foundation"
+[    56.246] (Information) LoadModule: "fbdev"
+[    56.246] (Information) Loading /usr/lib64/xorg/modules/drivers/fbdev_drv.so
+[    56.248] (Information) Module fbdev: vendor="X.Org Foundation"
+[    56.248] (Information) LoadModule: "vesa"
+[    56.248] (Information) Loading /usr/lib64/xorg/modules/drivers/vesa_drv.so
+[    56.249] (Information) Module vesa: vendor="X.Org Foundation"
+[    56.249] (Information) vmware: driver for VMware SVGA: vmware0405, vmware0710
+[    56.249] (Information) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    56.249] (Information) FBDEV: driver for framebuffer: fbdev
+[    56.249] (Information) VESA: driver for VESA chipsets: vesa
+[    56.250] (Information) Loading sub module "fbdevhw"
+[    56.250] (Information) LoadModule: "fbdevhw"
+[    56.250] (Information) Loading /usr/lib64/xorg/modules/libfbdevhw.so
+[    56.257] (Information) Module fbdevhw: vendor="X.Org Foundation"
+[    56.257] (Information) vmware(0): Creating default Display subsection in Screen section
+[    56.258] (Information) vmware(0): Output Virtual1 has no monitor section
+[    56.258] (Information) vmware(0): Output Virtual2 has no monitor section
+[    56.258] (Information) vmware(0): Output Virtual3 has no monitor section
+[    56.258] (Information) vmware(0): Output Virtual4 has no monitor section
+[    56.258] (Information) vmware(0): Output Virtual5 has no monitor section
+[    56.258] (Information) vmware(0): Output Virtual6 has no monitor section
+[    56.258] (Information) vmware(0): Output Virtual7 has no monitor section
+[    56.258] (Information) vmware(0): Output Virtual8 has no monitor section
+[    56.258] (Information) vmware(0): Printing probed modes for output Virtual1
+[    56.258] (Information) vmware(0): Modeline "800x600"x60.0   42.75  800 850 900 950  600 650 700 750 -hsync +vsync (45.0 kHz eP)
+[    56.258] (Information) vmware(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz e)
+[    56.258] (Information) vmware(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz e)
+[    56.258] (Information) vmware(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz e)
+[    56.258] (Information) vmware(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz e)
+[    56.258] (Information) vmware(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz e)
+[    56.258] (Information) vmware(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz e)
+[    56.258] (Information) vmware(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz e)
+[    56.258] (Information) vmware(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz e)
+[    56.258] (Information) vmware(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[    56.258] (Information) vmware(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz e)
+[    56.258] (Information) vmware(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+[    56.258] (Information) vmware(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz e)
+[    56.258] (Information) vmware(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 +hsync -vsync (49.7 kHz e)
+[    56.258] (Information) vmware(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[    56.258] (Information) vmware(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz e)
+[    56.258] (Information) vmware(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    56.258] (Information) vmware(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    56.258] (Information) vmware(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 489 492 525 -hsync -vsync (31.5 kHz e)
+[    56.258] (Information) vmware(0): EDID for output Virtual2
+[    56.258] (Information) vmware(0): EDID for output Virtual3
+[    56.258] (Information) vmware(0): EDID for output Virtual4
+[    56.258] (Information) vmware(0): EDID for output Virtual5
+[    56.258] (Information) vmware(0): EDID for output Virtual6
+[    56.258] (Information) vmware(0): EDID for output Virtual7
+[    56.258] (Information) vmware(0): EDID for output Virtual8
+[    56.258] (Information) vmware(0): Output Virtual1 connected
+[    56.258] (Information) vmware(0): Output Virtual2 disconnected
+[    56.258] (Information) vmware(0): Output Virtual3 disconnected
+[    56.258] (Information) vmware(0): Output Virtual4 disconnected
+[    56.258] (Information) vmware(0): Output Virtual5 disconnected
+[    56.258] (Information) vmware(0): Output Virtual6 disconnected
+[    56.258] (Information) vmware(0): Output Virtual7 disconnected
+[    56.258] (Information) vmware(0): Output Virtual8 disconnected
+[    56.258] (Information) vmware(0): Using exact sizes for initial modes
+[    56.258] (Information) vmware(0): Output Virtual1 using initial mode 800x600 +0+0
+[    56.258] (Information) Loading sub module "fb"
+[    56.258] (Information) LoadModule: "fb"
+[    56.258] (Information) Loading /usr/lib64/xorg/modules/libfb.so
+[    56.266] (Information) Module fb: vendor="X.Org Foundation"
+[    56.266] (Information) Loading sub module "dri2"
+[    56.266] (Information) LoadModule: "dri2"
+[    56.266] (Information) Module "dri2" already built-in
+[    56.266] (Information) UnloadModule: "modesetting"
+[    56.266] (Information) Unloading modesetting
+[    56.266] (Information) UnloadModule: "fbdev"
+[    56.266] (Information) Unloading fbdev
+[    56.266] (Information) UnloadSubModule: "fbdevhw"
+[    56.266] (Information) Unloading fbdevhw
+[    56.266] (Information) UnloadModule: "vesa"
+[    56.266] (Information) Unloading vesa
+[    56.277] (Information) vmware(0): Initialized VMWARE_CTRL extension version 0.2
+[    56.485] (Information) vmware(0): Gallium3D XA version: 2.5.0.
+[    56.485] (Information) vmware(0): Path of drm device is "/dev/dri/card0".
+[    56.485] (Information) vmware(0): [DRI2] Setup complete
+[    56.485] (Information) vmware(0): [DRI2]   DRI driver: vmwgfx
+[    56.486] (Information) Initializing extension Generic Event Extension
+[    56.486] (Information) Initializing extension SHAPE
+[    56.486] (Information) Initializing extension MIT-SHM
+[    56.486] (Information) Initializing extension XInputExtension
+[    56.488] (Information) Initializing extension XTEST
+[    56.488] (Information) Initializing extension BIG-REQUESTS
+[    56.488] (Information) Initializing extension SYNC
+[    56.488] (Information) Initializing extension XKEYBOARD
+[    56.488] (Information) Initializing extension XC-MISC
+[    56.488] (Information) Initializing extension SECURITY
+[    56.488] (Information) Initializing extension XFIXES
+[    56.488] (Information) Initializing extension RENDER
+[    56.488] (Information) Initializing extension RANDR
+[    56.488] (Information) Initializing extension COMPOSITE
+[    56.488] (Information) Initializing extension DAMAGE
+[    56.488] (Information) Initializing extension MIT-SCREEN-SAVER
+[    56.488] (Information) Initializing extension DOUBLE-BUFFER
+[    56.488] (Information) Initializing extension RECORD
+[    56.488] (Information) Initializing extension DPMS
+[    56.488] (Information) Initializing extension Present
+[    56.488] (Information) Initializing extension DRI3
+[    56.488] (Information) Initializing extension X-Resource
+[    56.488] (Information) Initializing extension XVideo
+[    56.488] (Information) Initializing extension XVideo-MotionCompensation
+[    56.488] (Information) Initializing extension SELinux
+[    56.488] (Information) SELinux: Disabled by boolean
+[    56.488] (Information) Initializing extension GLX
+[    56.800] (Information) AIGLX: Loaded and initialized vmwgfx
+[    56.800] (Information) GLX: Initialized DRI2 GL provider for screen 0
+[    56.800] (Information) Initializing extension XFree86-VidModeExtension
+[    56.800] (Information) Initializing extension XFree86-DGA
+[    56.800] (Information) Initializing extension XFree86-DRI
+[    56.800] (Information) Initializing extension DRI2
+[    56.849] (Information) vmware(0): Setting screen physical size to 211 x 158
+[    56.956] (Information) config/udev: Adding input device Power Button (/dev/input/event0)
+[    56.956] (Information) LoadModule: "libinput"
+[    56.956] (Information) Loading /usr/lib64/xorg/modules/input/libinput_drv.so
+[    56.980] (Information) Module libinput: vendor="X.Org Foundation"
+[    56.980] (Information) Using input driver 'libinput' for 'Power Button'
+[    56.996] (Information) event0  - Power Button: is tagged by udev as: Keyboard
+[    56.996] (Information) event0  - Power Button: device is a keyboard
+[    56.996] (Information) event0  - Power Button: device removed
+[    57.030] (Information) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    57.030] (Information) event0  - Power Button: is tagged by udev as: Keyboard
+[    57.030] (Information) event0  - Power Button: device is a keyboard
+[    57.030] (Information) config/udev: Adding input device Sleep Button (/dev/input/event1)
+[    57.030] (Information) Using input driver 'libinput' for 'Sleep Button'
+[    57.030] (Information) event1  - Sleep Button: is tagged by udev as: Keyboard
+[    57.030] (Information) event1  - Sleep Button: device is a keyboard
+[    57.030] (Information) event1  - Sleep Button: device removed
+[    57.039] (Information) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 7)
+[    57.039] (Information) event1  - Sleep Button: is tagged by udev as: Keyboard
+[    57.039] (Information) event1  - Sleep Button: device is a keyboard
+[    57.040] (Information) config/udev: Adding input device Video Bus (/dev/input/event4)
+[    57.040] (Information) Using input driver 'libinput' for 'Video Bus'
+[    57.040] (Information) event4  - Video Bus: is tagged by udev as: Keyboard
+[    57.040] (Information) event4  - Video Bus: device is a keyboard
+[    57.040] (Information) event4  - Video Bus: device removed
+[    57.061] (Information) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+[    57.061] (Information) event4  - Video Bus: is tagged by udev as: Keyboard
+[    57.061] (Information) event4  - Video Bus: device is a keyboard
+[    57.062] (Information) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+[    57.062] (Information) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    57.062] (Information) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    57.062] (Information) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[    57.062] (Information) event2  - AT Translated Set 2 keyboard: device removed
+[    57.072] (Information) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 9)
+[    57.072] (Information) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    57.072] (Information) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[    57.072] (Information) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event3)
+[    57.072] (Information) Using input driver 'libinput' for 'ImExPS/2 Generic Explorer Mouse'
+[    57.072] (Information) event3  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[    57.072] (Information) event3  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[    57.072] (Information) event3  - ImExPS/2 Generic Explorer Mouse: device removed
+[    57.085] (Information) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 10)
+[    57.085] (Information) event3  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[    57.085] (Information) event3  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[    57.085] (Information) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[    57.085] (Information) No input driver specified, ignoring this device.
+[    57.085] (Information) This device may have been added with another device file.
+[    57.085] (Information) config/udev: Adding input device PC Speaker (/dev/input/event5)
+[    57.085] (Information) No input driver specified, ignoring this device.
+[    57.085] (Information) This device may have been added with another device file.
+[  1167.272] (Information) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[  1167.272] (Information) No input driver specified, ignoring this device.
+[  1167.272] (Information) This device may have been added with another device file.
+[  1167.674] (Information) config/udev: removing device ImExPS/2 Generic Explorer Mouse
+[  1167.730] (Information) event3  - ImExPS/2 Generic Explorer Mouse: device removed
+[  1167.749] (Information) UnloadModule: "libinput"
+[  1167.749] (Information) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event3)
+[  1167.749] (Information) Using input driver 'libinput' for 'ImExPS/2 Generic Explorer Mouse'
+[  1167.769] (Information) event3  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[  1167.782] (Information) event3  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[  1167.782] (Information) event3  - ImExPS/2 Generic Explorer Mouse: device removed
+[  1167.813] (Information) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 10)
+[  1167.813] (Information) event3  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[  1167.813] (Information) event3  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[  1167.813] (Information) config/udev: removing device Power Button
+[  1167.813] (Information) event0  - Power Button: device removed
+[  1167.827] (Information) UnloadModule: "libinput"
+[  1167.827] (Information) config/udev: Adding input device Power Button (/dev/input/event0)
+[  1167.827] (Information) Using input driver 'libinput' for 'Power Button'
+[  1167.827] (Information) event0  - Power Button: is tagged by udev as: Keyboard
+[  1167.827] (Information) event0  - Power Button: device is a keyboard
+[  1167.827] (Information) event0  - Power Button: device removed
+[  1167.835] (Information) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[  1167.835] (Information) event0  - Power Button: is tagged by udev as: Keyboard
+[  1167.835] (Information) event0  - Power Button: device is a keyboard
+[  1167.836] (Information) config/udev: removing device AT Translated Set 2 keyboard
+[  1167.836] (Information) event2  - AT Translated Set 2 keyboard: device removed
+[  1167.841] (Information) UnloadModule: "libinput"
+[  1167.841] (Information) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+[  1167.841] (Information) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[  1167.845] (Information) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[  1167.845] (Information) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[  1167.845] (Information) event2  - AT Translated Set 2 keyboard: device removed
+[  1167.853] (Information) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 9)
+[  1167.854] (Information) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[  1167.855] (Information) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[  1167.858] (Information) config/udev: removing device Video Bus
+[  1167.863] (Information) event4  - Video Bus: device removed
+[  1167.875] (Information) UnloadModule: "libinput"
+[  1167.875] (Information) config/udev: Adding input device Video Bus (/dev/input/event4)
+[  1167.875] (Information) Using input driver 'libinput' for 'Video Bus'
+[  1167.875] (Information) event4  - Video Bus: is tagged by udev as: Keyboard
+[  1167.875] (Information) event4  - Video Bus: device is a keyboard
+[  1167.875] (Information) event4  - Video Bus: device removed
+[  1167.885] (Information) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+[  1167.885] (Information) event4  - Video Bus: is tagged by udev as: Keyboard
+[  1167.885] (Information) event4  - Video Bus: device is a keyboard
+[  1167.886] (Information) config/udev: removing device Sleep Button
+[  1167.886] (Information) event1  - Sleep Button: device removed
+[  1167.892] (Information) UnloadModule: "libinput"
+[  1167.892] (Information) config/udev: Adding input device Sleep Button (/dev/input/event1)
+[  1167.892] (Information) Using input driver 'libinput' for 'Sleep Button'
+[  1167.892] (Information) event1  - Sleep Button: is tagged by udev as: Keyboard
+[  1167.892] (Information) event1  - Sleep Button: device is a keyboard
+[  1167.892] (Information) event1  - Sleep Button: device removed
+[  1167.896] (Information) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 7)
+[  1167.896] (Information) event1  - Sleep Button: is tagged by udev as: Keyboard
+[  1167.896] (Information) event1  - Sleep Button: device is a keyboard
+[  1167.898] (Information) config/udev: Adding input device PC Speaker (/dev/input/event5)
+[  1167.898] (Information) No input driver specified, ignoring this device.
+[  1167.898] (Information) This device may have been added with another device file.
